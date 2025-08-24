@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://healthcare-pro.com/sitemap.xml
+
+# Disallow admin and private areas (if any)
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow important pages
+Allow: /doctors/
+Allow: /patients/
+Allow: /appointments/
+Allow: /pharmacy/
+Allow: /laboratory/
+Allow: /billing/
+Allow: /dashboard/
+
+# Crawl delay (optional)
+Crawl-delay: 1

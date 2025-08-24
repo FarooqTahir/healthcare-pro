@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)"/>
+  
+  <!-- Decorative background elements -->
+  <circle cx="100" cy="100" r="80" fill="#0ea5e9" opacity="0.1"/>
+  <circle cx="1100" cy="150" r="120" fill="#0ea5e9" opacity="0.08"/>
+  <circle cx="150" cy="500" r="100" fill="#0ea5e9" opacity="0.06"/>
+  
+  <!-- Main content area -->
+  <rect x="200" y="150" width="800" height="330" rx="20" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Medical Cross Icon -->
+  <g transform="translate(250, 200)">
+    <rect width="80" height="80" rx="16" fill="#0ea5e9"/>
+    <path d="M40 20v40M20 40h40" stroke="white" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="40" cy="40" r="30" stroke="white" stroke-width="3" opacity="0.3"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="360" y="240" font-family="Inter, system-ui, sans-serif" font-size="48" font-weight="700" fill="#0f172a">HealthCare Pro</text>
+  
+  <!-- Subtitle -->
+  <text x="360" y="290" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="500" fill="#64748b">Modern Healthcare Management System</text>
+  
+  <!-- Features -->
+  <g transform="translate(360, 320)">
+    <!-- Feature 1 -->
+    <circle cx="15" cy="15" r="8" fill="#10b981"/>
+    <text x="35" y="22" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="500" fill="#374151">Patient Management</text>
+    
+    <!-- Feature 2 -->
+    <circle cx="15" cy="55" r="8" fill="#f59e0b"/>
+    <text x="35" y="62" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="500" fill="#374151">Appointment Scheduling</text>
+    
+    <!-- Feature 3 -->
+    <circle cx="15" cy="95" r="8" fill="#8b5cf6"/>
+    <text x="35" y="102" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="500" fill="#374151">Pharmacy & Laboratory</text>
+    
+    <!-- Feature 4 -->
+    <circle cx="15" cy="135" r="8" fill="#ef4444"/>
+    <text x="35" y="142" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="500" fill="#374151">Billing & Insurance</text>
+  </g>
+  
+  <!-- Bottom tagline -->
+  <text x="600" y="520" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="600" fill="#0ea5e9">Comprehensive • Secure • Modern</text>
+  
+  <!-- Decorative elements -->
+  <rect x="50" y="50" width="4" height="4" rx="2" fill="#0ea5e9" opacity="0.3"/>
+  <rect x="1150" y="80" width="3" height="3" rx="1.5" fill="#0ea5e9" opacity="0.4"/>
+  <rect x="80" y="580" width="5" height="5" rx="2.5" fill="#0ea5e9" opacity="0.2"/>
+</svg>
