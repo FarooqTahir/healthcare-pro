@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "HealthCare Pro - Modern Healthcare Management",
   description: "A comprehensive healthcare management system for patients and doctors",
-    generator: 'v0.dev'
+  generator: 'SpicShine Technologies'
 }
 
 export default function RootLayout({

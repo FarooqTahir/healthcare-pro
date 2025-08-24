@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Heart, Calendar, Shield, Clock, Users, FileText, CheckCircle, Star } from "lucide-react"
+import { Navbar } from "@/components/navigation/navbar"
 
 export default function HomePage() {
   const features = [
@@ -61,6 +62,7 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col min-h-screen">
+      <Navbar />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
@@ -79,7 +81,7 @@ export default function HomePage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-blue-600"
+                className="border-white text-blue-500 hover:bg-white hover:text-blue-600"
                 asChild
               >
                 <Link href="/auth/signin">Sign In</Link>
@@ -238,7 +240,7 @@ export default function HomePage() {
                       <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                     ))}
                   </div>
-                  <p className="text-gray-600 dark:text-gray-300 mb-4">"{testimonial.content}"</p>
+                  <p className="text-gray-600 dark:text-gray-300 mb-4">&ldquo;{testimonial.content}&rdquo;</p>
                   <div>
                     <p className="font-semibold">{testimonial.name}</p>
                     <p className="text-sm text-gray-500">{testimonial.role}</p>
