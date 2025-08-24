@@ -62,7 +62,6 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <Navbar />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
